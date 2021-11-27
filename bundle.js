@@ -1,11 +1,11 @@
 'use strict';
 
+require('lodash');
+
 var index = 42;
 
-// src/main.js
-
-function main2 () {
-  console.log('the answer is ' + index);
+function mainLodash(){
+    console.log("我的回答是" + index);
 }
 
-module.exports = main2;
+module.exports = mainLodash;
