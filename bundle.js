@@ -1,11 +1,16 @@
+//我们在头
 'use strict';
 
-require('lodash');
+var version = "1.0.0";
 
-var index = 42;
+// src/main.js
 
-function mainLodash(){
-    console.log("我的回答是" + index);
+console.warn("????");
+console.warn("????");
+warn("????");
+function main () {
+  console.log('version ' + version);
 }
 
-module.exports = mainLodash;
+module.exports = main;
+//我们在尾部
