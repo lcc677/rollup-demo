@@ -1,9 +1,6 @@
 // src/main.js
-import {  version} from '../package.json';
+import { add } from './math';
 
-console.warn("????")
-console.warn("????")
-warn("????")
 export default function () {
-  console.log('version ' + version);
+  console.log('the answer is ' + add(1,5));
 }

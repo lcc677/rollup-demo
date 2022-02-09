@@ -1,0 +1,12 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.67.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
