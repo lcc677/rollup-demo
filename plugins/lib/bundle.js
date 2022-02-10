@@ -1,3 +1,1 @@
-var version = "1.0.0";
-
-console.log(version);
+console.log("1.0.0");
